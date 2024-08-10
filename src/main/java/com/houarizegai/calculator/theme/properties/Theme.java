@@ -9,7 +9,16 @@ public class Theme {
     private String operatorBackground;
     private String numbersBackground;
     private String btnEqualBackground;
-
+    public Theme(String name, String applicationBackground, String textColor, String btnEqualTextColor,
+                 String operatorBackground, String numbersBackground, String btnEqualBackground) {
+        this.name = name;
+        this.applicationBackground = applicationBackground;
+        this.textColor = textColor;
+        this.btnEqualTextColor = btnEqualTextColor;
+        this.operatorBackground = operatorBackground;
+        this.numbersBackground = numbersBackground;
+        this.btnEqualBackground = btnEqualBackground;
+    }
     public String getName() {
         return name;
     }
